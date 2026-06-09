@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热播排行榜-国产电视剧视频免费在线播放|最新高清剧集热播-热门国产电视剧</title>
+    <meta name="description" content="国产电视剧热播排行榜，精选最新高清剧集与热门影视内容，支持在线点播。">
+    <meta name="keywords" content="热播排行榜,国产电视剧排行,国产电视剧视频免费在线播放|最新高清剧集热播-热门国产电视剧,国产,视频,免费,在线观看,高清,影视大全">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-mist-200">
+    <nav class="container-custom">
+        <div class="flex items-center justify-between h-16 md:h-20">
+            <a href="./index.html" class="flex items-center space-x-2 group" aria-label="高清剧集大全">
+                <span class="site-logo-mark">▶</span>
+                <span class="text-xl md:text-2xl font-bold text-mist-900 group-hover:text-forest-600 transition-colors">高清剧集大全</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="./index.html" class="text-base font-medium transition-colors hover:text-forest-600 text-mist-700">首页</a>
+                <a href="./categories.html" class="text-base font-medium transition-colors hover:text-forest-600 text-mist-700">分类</a>
+                <a href="./ranking.html" class="text-base font-medium transition-colors hover:text-forest-600 text-forest-600">排行榜</a>
+                <a href="./category-domestic-series.html" class="text-base font-medium transition-colors hover:text-forest-600 text-mist-700">国产热剧</a><a href="./category-costume-wuxia.html" class="text-base font-medium transition-colors hover:text-forest-600 text-mist-700">古装武侠</a><a href="./category-suspense-crime.html" class="text-base font-medium transition-colors hover:text-forest-600 text-mist-700">悬疑犯罪</a><a href="./category-romance-drama.html" class="text-base font-medium transition-colors hover:text-forest-600 text-mist-700">爱情剧情</a>
+            </div>
+            <button class="md:hidden p-2 text-mist-700 hover:text-forest-600 transition-colors" type="button" data-menu-button aria-label="打开菜单">
+                <span class="menu-icon">☰</span>
+            </button>
+        </div>
+        <div class="hidden md:hidden bg-white border-t border-mist-200" data-mobile-menu>
+            <a href="./index.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">首页</a>
+            <a href="./categories.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">分类</a>
+            <a href="./ranking.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">排行榜</a>
+            <a href="./category-domestic-series.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">国产热剧</a><a href="./category-costume-wuxia.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">古装武侠</a><a href="./category-suspense-crime.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">悬疑犯罪</a><a href="./category-romance-drama.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">爱情剧情</a><a href="./category-action-war.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">动作战争</a><a href="./category-comedy-family.html" class="block px-4 py-3 text-base font-medium text-mist-700 hover:text-forest-600 hover:bg-mist-50">喜剧家庭</a>
+        </div>
+    </nav>
+</header>
+<main>
+<section class="bg-gradient-to-br from-forest-50 to-stream-50">
+    <div class="container-custom py-12 md:py-16">
+        <h1 class="text-mist-900 mb-4">热播排行榜</h1>
+        <p class="text-mist-700 text-lg max-w-3xl">根据年份、类型热度与频道推荐综合展示热门剧集，支持搜索与筛选。</p>
+    </div>
+</section>
+<section class="section-padding bg-white">
+    <div class="container-custom">
+        <div class="search-panel card p-4 md:p-6 mb-8" data-filter-form data-filter-target="#ranking-grid">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <label class="filter-label">
+            <span>搜索</span>
+            <input type="search" name="search" class="filter-input" placeholder="输入片名、类型、地区">
+        </label>
+        <label class="filter-label">
+            <span>类型</span>
+            <select name="type" class="filter-input">
+                <option value="">全部类型</option>
+                <option value="电影">电影</option>
+                <option value="剧集">剧集</option>
+                <option value="电视剧">电视剧</option>
+            </select>
+        </label>
+        <label class="filter-label">
+            <span>年份</span>
+            <input type="search" name="year" class="filter-input" placeholder="例如 2025">
+        </label>
+        <label class="filter-label">
+            <span>频道</span>
+            <select name="genre" class="filter-input">
+                <option value="">全部频道</option>
+                <option value="国产热剧">国产热剧</option><option value="古装武侠">古装武侠</option><option value="悬疑犯罪">悬疑犯罪</option><option value="爱情剧情">爱情剧情</option><option value="动作战争">动作战争</option><option value="喜剧家庭">喜剧家庭</option><option value="科幻奇幻">科幻奇幻</option><option value="都市青春">都市青春</option><option value="历史史诗">历史史诗</option><option value="海外精选">海外精选</option>
+            </select>
+        </label>
+    </div>
+</div>
+        <div id="ranking-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-12">
+            <a href="./movie-0768.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="拿撒勒的耶稣" data-genre="历史,宗教,剧情" data-year="2027" data-region="以色列/美国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./18.jpg" alt="拿撒勒的耶稣" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">1</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">拿撒勒的耶稣</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">用考古学和历史学还原耶稣:他不是神,但比任何神都更像神。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">动作战争</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2027</span></div>
+    </div>
+</a>
+<a href="./movie-1536.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="狮蚁" data-genre="动作/科幻" data-year="2027" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./36.jpg" alt="狮蚁" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">2</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">狮蚁</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">败光家产的格斗冠军被改造成“狮蚁”基因战士,却在第一次地下死斗中,发现对手是自己的亲弟弟。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2027</span></div>
+    </div>
+</a>
+<a href="./movie-0936.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="武逆第三季" data-genre="动画/奇幻/热血" data-year="2026" data-region="中国大陆" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./36.jpg" alt="武逆第三季" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">3</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">武逆第三季</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">凡体少年逆天改命,为救苍生,他甘愿成为众神之敌。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">爱情剧情</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-1392.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="地下陪审团" data-genre="犯罪,悬疑,剧情" data-year="2026" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./42.jpg" alt="地下陪审团" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">4</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">地下陪审团</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">12个互不相识的人被关进地下密室,每人面前都有一份案卷,他们要决定一个已被定罪的杀人犯是否有罪,投票结果决定他们自己的生死。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-1488.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="万亿风暴" data-genre="惊悚,悬疑,金融" data-year="2026" data-region="美国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./138.jpg" alt="万亿风暴" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">5</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">万亿风暴</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">全球股市一秒蒸发一万亿美元,唯一预知灾难的流浪汉成了所有势力的猎杀目标。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-1584.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="太极张三丰" data-genre="动作,武侠" data-year="2026" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./84.jpg" alt="太极张三丰" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">6</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">太极张三丰</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">少年张三丰在少林寺藏经阁偷看武术,被逐出师门后悟出以柔克刚的太极真谛。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">历史史诗</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-1704.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="穿越者之异梦空间" data-genre="科幻/悬疑" data-year="2026" data-region="中国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./54.jpg" alt="穿越者之异梦空间" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">7</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">穿越者之异梦空间</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">她每晚都会梦见另一个时空的自己,直到某天醒来发现左手的伤疤与梦中完全一致。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-1752.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="五个杀手的传说" data-genre="动作/犯罪/黑色幽默" data-year="2026" data-region="香港/法国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./102.jpg" alt="五个杀手的传说" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">8</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">五个杀手的传说</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">五个顶级杀手喝醉后,各自吹嘘自己最完美的暗杀,结果发现五起案子竟然死的是同一个人。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-1824.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="释迦传" data-genre="传记/历史/宗教" data-year="2026" data-region="日本" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./24.jpg" alt="释迦传" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">9</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">释迦传</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">从迦毗罗卫国的王子到菩提树下的觉悟者,再现释迦牟尼寻求解脱之道的传奇一生。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2026</span></div>
+    </div>
+</a>
+<a href="./movie-0096.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="欲望城市2" data-genre="剧情,爱情" data-year="2025" data-region="美国" data-type="TV剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./96.jpg" alt="欲望城市2" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">10</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">欲望城市2</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">二十年后,四位老友重聚纽约,这次她们要处理的不是约会的烦恼,而是更年期的骚动和子女的恋爱。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">海外精选</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">TV剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0120.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="纽约娃娃" data-genre="恐怖/心理" data-year="2025" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./120.jpg" alt="纽约娃娃" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">11</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">纽约娃娃</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">纽约一栋老公寓的电梯工发现,每层住户收藏的古董娃娃,会在午夜同时转头看向某个房间。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0216.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="疯狂的卡波事件" data-genre="喜剧,动作,犯罪" data-year="2025" data-region="墨西哥/美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./66.jpg" alt="疯狂的卡波事件" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">12</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">疯狂的卡波事件</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一场毒枭儿子的婚礼上,扮成服务员的卧底、欠债的伴郎和抢遗产的姨妈同时动手,结果认错了目标。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0264.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="乌蒙深处" data-genre="剧情,悬疑,犯罪" data-year="2025" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./114.jpg" alt="乌蒙深处" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">13</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">乌蒙深处</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一名驻村书记在乌蒙山腹地推广养殖时,意外发现了三年前被掩埋的车辆和骸骨。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">海外精选</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0336.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="小鱼莉莉" data-genre="剧情/家庭" data-year="2025" data-region="美国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./36.jpg" alt="小鱼莉莉" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">14</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">小鱼莉莉</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个不会说话的自闭症女孩,能通过绘画精准预测海洋动物的死亡,而她的母亲是海鲜加工厂厂长。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0408.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="食在好源头第四季" data-genre="纪录片,真人秀" data-year="2025" data-region="中国香港" data-type="综艺">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./108.jpg" alt="食在好源头第四季" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">15</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">食在好源头第四季</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">美食家深入全球绝境寻找食材,这次在活火山上烤牛排,在深海捞海胆。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">综艺</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0528.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="凤姐" data-genre="剧情/女性/年代" data-year="2025" data-region="中国大陆" data-type="电视剧">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./78.jpg" alt="凤姐" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">16</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">凤姐</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">1997年,东北下岗女工凤姐应聘深圳豪门保姆,她不会拖地,但能三天扒掉主家女婿的假面。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电视剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0648.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="有爱就有家" data-genre="都市/情感" data-year="2025" data-region="中国大陆" data-type="电视剧">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./48.jpg" alt="有爱就有家" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">17</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">有爱就有家</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个失败的保险推销员,为了业绩将五位互不相识的空巢老人凑在一个屋檐下,意外组成了“临时家庭”。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">历史史诗</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电视剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0720.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="杀了我吧" data-genre="悬疑/喜剧" data-year="2025" data-region="日本" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./120.jpg" alt="杀了我吧" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">18</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">杀了我吧</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个生无可恋的废柴在网上雇凶杀己,来的杀手却是个业务能力为0、甚至开始给他灌鸡汤的话痨。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">国产热剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0744.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="败犬女王" data-genre="爱情,喜剧,职场" data-year="2025" data-region="中国台湾" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./144.jpg" alt="败犬女王" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">19</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">败犬女王</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">33岁的杂志社女副总编事业开挂却情场失意,直到一个23岁的打工仔闯入她的生活。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0840.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="维京人埃里克" data-genre="历史,动作,冒险" data-year="2025" data-region="挪威/冰岛" data-type="电视剧">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./90.jpg" alt="维京人埃里克" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">20</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">维京人埃里克</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">不被父亲承认的私生子埃里克,带着三个奴隶和一条破船,开始了向国王复仇的史诗航程。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电视剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0912.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="异形寄生:起源" data-genre="科幻/恐怖" data-year="2025" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./12.jpg" alt="异形寄生:起源" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">21</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">异形寄生:起源</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">科学家在南极冰层下发现三十亿年前的第一颗异形卵,然后它寄生了整个科考站。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1080.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="花篮花儿香" data-genre="战争/女性" data-year="2025" data-region="中国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./30.jpg" alt="花篮花儿香" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">22</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">花篮花儿香</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">1937 年,七个女学生组成战地宣传队,用歌声和花篮运送比炮弹更致命的情报。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">历史史诗</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1272.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="大电影" data-genre="喜剧/剧情/讽刺" data-year="2025" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./72.jpg" alt="大电影" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">23</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">大电影</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个被资本绑架的导演被迫拍一部“必火”的烂片,却意外在拍摄过程中发现了电影最原始的魔力。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1296.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="杀手老不休" data-genre="喜剧,动作,犯罪" data-year="2025" data-region="中国香港" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./96.jpg" alt="杀手老不休" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">24</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">杀手老不休</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">顶级杀手“不休哥”退休住进养老院,结果发现暗杀目标也住在这里,一场“高龄火拼”就此展开。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">海外精选</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1368.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="说出你的故事" data-genre="悬疑、剧情、犯罪" data-year="2025" data-region="中国内地" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./18.jpg" alt="说出你的故事" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">25</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">说出你的故事</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一档揭秘都市传说的爆款播客,在调查“地铁女鬼”真相时,主播自己成了杀人嫌犯。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">爱情剧情</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1512.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="非电影" data-genre="实验/纪录片" data-year="2025" data-region="意大利" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./12.jpg" alt="非电影" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">26</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">非电影</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个导演决定拍一部“关于拍不出电影的困境”的电影,结果发现他自己也正陷入同样的困境。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">爱情剧情</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1608.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="出演时刻" data-genre="剧情/音乐" data-year="2025" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./108.jpg" alt="出演时刻" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">27</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">出演时刻</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">百老汇音乐剧的替补演员在主角意外失声后登台,唱到高潮时发现主角在侧台用口型威胁她“唱不上去就毁了你”。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">动作战争</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-1992.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="联结" data-genre="科幻,剧情" data-year="2025" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./42.jpg" alt="联结" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">28</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">联结</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一对濒临离婚的夫妻报名实验:通过芯片完全共享情绪72小时,却意外同步了对方的全部记忆。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">爱情剧情</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2025</span></div>
+    </div>
+</a>
+<a href="./movie-0048.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="差不多" data-genre="剧情,黑色幽默" data-year="2024" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./48.jpg" alt="差不多" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">29</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">差不多</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">口头禅是“差不多”的县城青年,在一次殡葬礼仪的比拼中,阴差阳错地成了远近闻名的“大孝子”。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0192.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="精灵高中:食尸鬼之魂" data-genre="动画/喜剧/奇幻/校园" data-year="2024" data-region="美国" data-type="电影/动画">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./42.jpg" alt="精灵高中:食尸鬼之魂" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">30</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">精灵高中:食尸鬼之魂</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">精灵高中的一年一度“惊吓舞会”上,一个新生食尸鬼发现自己的歌声能让全校怪物瞬间情绪失控。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">海外精选</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影/动画</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0360.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="蒂姆与时间悖论" data-genre="科幻,悬疑,剧情" data-year="2024" data-region="英国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./60.jpg" alt="蒂姆与时间悖论" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">31</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">蒂姆与时间悖论</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">物理学家蒂姆为了见亡母最后一面,发明时间机器却导致自己从未出生的悖论危机。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">都市青春</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0432.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="摇滚学校" data-genre="喜剧/音乐" data-year="2024" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./132.jpg" alt="摇滚学校" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">32</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">摇滚学校</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">落魄摇滚乐手误入贵族小学当代课老师,竟把班级变成一支爆裂乐队。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">海外精选</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0456.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="乌鲁米" data-genre="历史动作" data-year="2024" data-region="印度" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./6.jpg" alt="乌鲁米" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">33</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">乌鲁米</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一名部落铸剑师之女手持祖传弯刀“乌鲁米”,对殖民者展开一场无声的血腥报复。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0480.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="向警予" data-genre="传记/历史" data-year="2024" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./30.jpg" alt="向警予" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">34</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">向警予</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">从叛逆少女到妇女领袖,她用 33 年的生命划破旧时代的黑暗。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0576.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="容顺" data-genre="悬疑/惊悚" data-year="2024" data-region="韩国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./126.jpg" alt="容顺" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">35</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">容顺</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">姐姐容顺失踪后,妹妹开始梦见自己用姐姐的名字杀人。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">爱情剧情</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0600.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="恶人牧场" data-genre="西部,惊悚" data-year="2024" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./150.jpg" alt="恶人牧场" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">36</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">恶人牧场</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">女枪手孤身潜入恶人牧场复仇,却发现这里的“恶人”都是被通缉的好人。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0624.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="雪娘" data-genre="剧情,悬疑,历史" data-year="2024" data-region="中国大陆" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./24.jpg" alt="雪娘" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">37</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">雪娘</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">1930年代东北雪乡,温柔哑女雪娘在新婚夜惨遭灭门,从此踏上以柔弱之躯对抗黑暗势力的复仇之路。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0696.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="晚酌的流派4~夏篇~" data-genre="美食/日常" data-year="2024" data-region="日本" data-type="电视剧">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./96.jpg" alt="晚酌的流派4~夏篇~" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">38</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">晚酌的流派4~夏篇~</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">夏日炎炎,独居女子每天用三小时准备晚餐,只为冰啤酒入口那一瞬间。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">动作战争</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电视剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1008.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="我的狐仙女友" data-genre="奇幻/爱情/古装" data-year="2024" data-region="韩国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./108.jpg" alt="我的狐仙女友" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">39</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">我的狐仙女友</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">朝鲜时代,一只修行千年的狐妖为了报恩嫁给人类书生,却在大婚之夜发现他是当年灭族的仇人之子。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1056.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="真情的代价" data-genre="剧情/家庭/社会" data-year="2024" data-region="中国香港" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./6.jpg" alt="真情的代价" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">40</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">真情的代价</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">母亲为救患绝症的女儿挪用公款,女儿康复后却要将母亲送入监狱。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">爱情剧情</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1176.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="天煞" data-genre="科幻/动作/灾难" data-year="2024" data-region="中国香港" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./126.jpg" alt="天煞" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">41</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">天煞</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">外星舰队封锁香港上空,一个的士司机发现他们的弱点是——粤语脏话。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">动作战争</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1344.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="全糖少爷1" data-genre="爱情、喜剧、偶像" data-year="2024" data-region="中国大陆" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./144.jpg" alt="全糖少爷1" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">42</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">全糖少爷1</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">甜品帝国继承人因为低血糖症,必须不断摄入糖分,却遇到了一个患有“恐甜症”的冷酷女医生。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1440.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="胜利之光" data-genre="剧情/运动/家庭" data-year="2024" data-region="美国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./90.jpg" alt="胜利之光" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">43</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">胜利之光</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">德克萨斯州一个小镇的高中橄榄球队,背负着全镇的衰落与希望,新教练试图用一场场胜利找回集体荣誉。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">都市青春</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1632.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="亚瑟堤" data-genre="悬疑,惊悚" data-year="2024" data-region="法国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./132.jpg" alt="亚瑟堤" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">44</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">亚瑟堤</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">九名自称亚瑟王后裔的人被召集到一座海上堡垒,只有拔起“石中剑”的人才能继承万亿遗产。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1800.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="马路无理学园" data-genre="喜剧/校园" data-year="2024" data-region="日本" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./150.jpg" alt="马路无理学园" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">45</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">马路无理学园</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">前黑道老大为了还债去当高中老师,他用极道法则——“不讲道理,只讲义气”来感化一群废柴学生。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">国产热剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1872.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="爱欲中的夏威夷" data-genre="爱情,剧情,情色" data-year="2024" data-region="法国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./72.jpg" alt="爱欲中的夏威夷" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">46</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">爱欲中的夏威夷</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一对婚姻濒死的法国夫妇来到夏威夷参加换妻夏令营,本想挽救感情,却陷入了更深的欲望与嫉妒漩涡。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">动作战争</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1896.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="拍厉得" data-genre="恐怖/悬疑/超自然" data-year="2024" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./96.jpg" alt="拍厉得" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">47</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">拍厉得</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一台老式拍立得拍谁谁死,但下一个死的人,是按下快门的你自己。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1920.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="漂亮朋友" data-genre="剧情,历史" data-year="2024" data-region="法国" data-type="电视剧">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./120.jpg" alt="漂亮朋友" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">48</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">漂亮朋友</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个退伍穷士兵,凭借美貌和手段,把巴黎贵妇圈变成了他的提款机。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">悬疑犯罪</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电视剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-1944.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="天使报喜" data-genre="剧情/同性/宗教" data-year="2024" data-region="法国/意大利" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./144.jpg" alt="天使报喜" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">49</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">天使报喜</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">修女玛丽亚怀孕了,她坚称是圣灵感孕,而总主教在她床下发现了另一个女人的发卡。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2024</span></div>
+    </div>
+</a>
+<a href="./movie-0144.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="我知道这是真的" data-genre="剧情" data-year="2023" data-region="美国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./144.jpg" alt="我知道这是真的" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">50</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">我知道这是真的</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一对双胞胎兄弟,一个谎言,两段被撕裂的人生。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">古装武侠</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-0168.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="我们是谁" data-genre="科幻,伦理" data-year="2023" data-region="中国台湾" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./18.jpg" alt="我们是谁" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">51</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">我们是谁</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一场记忆移植手术成功后,富商和濒死的大学生开始争夺同一具身体,但他们都困惑:醒来的人到底是谁?</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-0240.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="坐稳车泰欣娜" data-genre="剧情/公路" data-year="2023" data-region="芬兰" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./90.jpg" alt="坐稳车泰欣娜" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">52</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">坐稳车泰欣娜</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一个芬兰老太太偷了疗养院的车,带着自己患阿尔茨海默症的闺蜜,一路向北去北极圈看极光。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-0288.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="生活是条静静的河流" data-genre="剧情,家庭,文艺" data-year="2023" data-region="法国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./138.jpg" alt="生活是条静静的河流" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">53</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">生活是条静静的河流</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">法国外省小镇上,一条贯穿全镇的河流见证了四个普通家庭跨越60年的日常与变故。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">国产热剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-0312.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="在波威" data-genre="剧情/西部" data-year="2023" data-region="美国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./12.jpg" alt="在波威" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">54</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">在波威</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">加州波威小镇,一个从伊拉克归来的女兵发现当地黑帮正在强拆她的家园,她决定用战场上学到的一切反击。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">国产热剧</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-0384.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="欢乐龙虎榜" data-genre="喜剧,家庭,奇幻" data-year="2023" data-region="中国台湾" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./84.jpg" alt="欢乐龙虎榜" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">55</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">欢乐龙虎榜</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">落魄的综艺节目制作人回到乡下,发现村里的庙公竟是能召唤“虎爷”的退休神仙,于是一场爆笑的“神仙综艺秀”开始了。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">都市青春</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-0672.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="哈里的遭遇" data-genre="悬疑/心理惊悚" data-year="2023" data-region="英国" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./72.jpg" alt="哈里的遭遇" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">56</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">哈里的遭遇</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">失忆男子回到故乡小镇,却发现每个村民都认识他,而他却完全陌生。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">动作战争</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-1032.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="我的青春期" data-genre="青春,校园,家庭" data-year="2023" data-region="中国大陆" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./132.jpg" alt="我的青春期" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">57</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">我的青春期</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">2010年,一个普通县城的重点班里,八个高中生用最笨拙的方式对抗着高考、早恋和原生家庭。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-1104.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="冬荫铁娘子" data-genre="动作/喜剧/运动" data-year="2023" data-region="泰国" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./54.jpg" alt="冬荫铁娘子" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">58</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">冬荫铁娘子</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">曼谷夜市卖冬荫功面的单亲妈妈,为了保住摊位加入地下女子泰拳联赛,一脚踢飞了黑帮大佬。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">海外精选</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-1128.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="魔夜离魂" data-genre="恐怖、心理" data-year="2023" data-region="西班牙" data-type="电影">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./78.jpg" alt="魔夜离魂" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">59</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">魔夜离魂</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">她每晚都被同一个噩梦追杀,当她开始在现实中看到梦中怪物时,医生说她只有七天寿命。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">科幻奇幻</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">电影</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+<a href="./movie-1152.html" class="card movie-card group overflow-hidden filter-card" data-filter-card data-title="新征程,舞起来!" data-genre="剧情,喜剧,音乐" data-year="2023" data-region="中国大陆" data-type="剧集">
+    <div class="relative aspect-[16/10] overflow-hidden bg-mist-100">
+        <img src="./102.jpg" alt="新征程,舞起来!" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <span class="play-circle">▶</span>
+        </div>
+        <span class="rank-badge">60</span>
+    </div>
+    <div class="p-4">
+        <h3 class="text-lg font-semibold text-mist-900 mb-2 group-hover:text-forest-600 transition-colors line-clamp-1">新征程,舞起来!</h3>
+        <p class="text-mist-600 text-sm line-clamp-2 mb-3">一心想要躺平的都市程序员,被派到乡村组织广场舞大赛,却引爆了一场全村“舞林革命”。</p>
+        <div class="flex flex-wrap gap-2"><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">喜剧家庭</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">剧集</span><span class="inline-flex items-center px-3 py-1 rounded-full bg-forest-100 text-forest-700 text-xs font-medium">2023</span></div>
+    </div>
+</a>
+        </div>
+        <div class="card p-4 md:p-6 space-y-3">
+            <a href="./movie-1320.html" class="ranking-row filter-card" data-filter-card data-title="我的卡路里男孩" data-genre="喜剧/爱情/青春" data-year="2023" data-region="中国" data-type="剧集">
+    <span class="list-rank">61</span>
+    <img src="./120.jpg" alt="我的卡路里男孩" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">我的卡路里男孩</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 中国 · 喜剧/爱情/青春</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0552.html" class="ranking-row filter-card" data-filter-card data-title="探索黑暗2" data-genre="科幻/惊悚" data-year="2022" data-region="美国" data-type="电影">
+    <span class="list-rank">62</span>
+    <img src="./102.jpg" alt="探索黑暗2" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">探索黑暗2</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2022 · 美国 · 科幻/惊悚</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0792.html" class="ranking-row filter-card" data-filter-card data-title="新征程,舞起来!" data-genre="喜剧,歌舞,励志" data-year="2022" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">63</span>
+    <img src="./42.jpg" alt="新征程,舞起来!" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">新征程,舞起来!</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2022 · 中国大陆 · 喜剧,歌舞,励志</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0816.html" class="ranking-row filter-card" data-filter-card data-title="我是威廉姆" data-genre="剧情,奇幻" data-year="2022" data-region="英国/美国" data-type="剧集">
+    <span class="list-rank">64</span>
+    <img src="./66.jpg" alt="我是威廉姆" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">我是威廉姆</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2022 · 英国/美国 · 剧情,奇幻</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1656.html" class="ranking-row filter-card" data-filter-card data-title="钢盔" data-genre="战争" data-year="2021" data-region="美国" data-type="电视剧">
+    <span class="list-rank">65</span>
+    <img src="./6.jpg" alt="钢盔" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">钢盔</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 美国 · 战争</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1728.html" class="ranking-row filter-card" data-filter-card data-title="真实身分" data-genre="悬疑/惊悚/剧情" data-year="2021" data-region="中国台湾" data-type="电影">
+    <span class="list-rank">66</span>
+    <img src="./78.jpg" alt="真实身分" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">真实身分</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 中国台湾 · 悬疑/惊悚/剧情</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1848.html" class="ranking-row filter-card" data-filter-card data-title="幸福来接龙" data-genre="家庭,喜剧,温情" data-year="2021" data-region="中国" data-type="剧集">
+    <span class="list-rank">67</span>
+    <img src="./48.jpg" alt="幸福来接龙" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">幸福来接龙</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 中国 · 家庭,喜剧,温情</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0024.html" class="ranking-row filter-card" data-filter-card data-title="笑神穷不怕" data-genre="剧情/喜剧/传记" data-year="2020" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">68</span>
+    <img src="./24.jpg" alt="笑神穷不怕" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">笑神穷不怕</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2020 · 中国大陆 · 剧情/喜剧/传记</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0984.html" class="ranking-row filter-card" data-filter-card data-title="原罪少女" data-genre="剧情/悬疑/犯罪" data-year="2020" data-region="韩国" data-type="电影">
+    <span class="list-rank">69</span>
+    <img src="./84.jpg" alt="原罪少女" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">原罪少女</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2020 · 韩国 · 剧情/悬疑/犯罪</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0504.html" class="ranking-row filter-card" data-filter-card data-title="疯狂的麦咭第八季" data-genre="冒险,真人秀" data-year="2019" data-region="中国大陆" data-type="TV剧集">
+    <span class="list-rank">70</span>
+    <img src="./54.jpg" alt="疯狂的麦咭第八季" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">疯狂的麦咭第八季</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2019 · 中国大陆 · 冒险,真人秀</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0888.html" class="ranking-row filter-card" data-filter-card data-title="证人2019" data-genre="悬疑,剧情" data-year="2019" data-region="韩国" data-type="电影">
+    <span class="list-rank">71</span>
+    <img src="./138.jpg" alt="证人2019" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">证人2019</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2019 · 韩国 · 悬疑,剧情</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0960.html" class="ranking-row filter-card" data-filter-card data-title="哪吒之魔童降世" data-genre="动画/奇幻/喜剧" data-year="2019" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">72</span>
+    <img src="./60.jpg" alt="哪吒之魔童降世" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">哪吒之魔童降世</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2019 · 中国大陆 · 动画/奇幻/喜剧</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1248.html" class="ranking-row filter-card" data-filter-card data-title="绑架2016" data-genre="犯罪、剧情、动作" data-year="2016" data-region="韩国" data-type="电影">
+    <span class="list-rank">73</span>
+    <img src="./48.jpg" alt="绑架2016" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">绑架2016</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2016 · 韩国 · 犯罪、剧情、动作</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0864.html" class="ranking-row filter-card" data-filter-card data-title="史酷比和食尸鬼学校" data-genre="动画/冒险" data-year="2015" data-region="美国" data-type="电影">
+    <span class="list-rank">74</span>
+    <img src="./114.jpg" alt="史酷比和食尸鬼学校" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">史酷比和食尸鬼学校</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2015 · 美国 · 动画/冒险</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1200.html" class="ranking-row filter-card" data-filter-card data-title="火星上的最后时日" data-genre="科幻,惊悚,恐怖" data-year="2013" data-region="美国" data-type="电影">
+    <span class="list-rank">75</span>
+    <img src="./150.jpg" alt="火星上的最后时日" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">火星上的最后时日</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2013 · 美国 · 科幻,惊悚,恐怖</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1680.html" class="ranking-row filter-card" data-filter-card data-title="人民公敌第三集" data-genre="动作/犯罪/剧情" data-year="2008" data-region="韩国" data-type="电影">
+    <span class="list-rank">76</span>
+    <img src="./30.jpg" alt="人民公敌第三集" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">人民公敌第三集</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2008 · 韩国 · 动作/犯罪/剧情</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1776.html" class="ranking-row filter-card" data-filter-card data-title="高卢勇士传" data-genre="喜剧/冒险" data-year="2006" data-region="法国" data-type="动画电影">
+    <span class="list-rank">77</span>
+    <img src="./126.jpg" alt="高卢勇士传" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">高卢勇士传</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2006 · 法国 · 喜剧/冒险</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1224.html" class="ranking-row filter-card" data-filter-card data-title="风的第一声呼吸" data-genre="剧情/文艺" data-year="2002" data-region="意大利" data-type="电影">
+    <span class="list-rank">78</span>
+    <img src="./24.jpg" alt="风的第一声呼吸" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">风的第一声呼吸</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2002 · 意大利 · 剧情/文艺</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1968.html" class="ranking-row filter-card" data-filter-card data-title="名侦探柯南国语版" data-genre="动画,悬疑,推理,犯罪" data-year="1996" data-region="日本" data-type="剧集">
+    <span class="list-rank">79</span>
+    <img src="./18.jpg" alt="名侦探柯南国语版" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">名侦探柯南国语版</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">1996 · 日本 · 动画,悬疑,推理,犯罪</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1560.html" class="ranking-row filter-card" data-filter-card data-title="恨满大同江" data-genre="剧情/历史/战争" data-year="1987" data-region="朝鲜" data-type="电影">
+    <span class="list-rank">80</span>
+    <img src="./60.jpg" alt="恨满大同江" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">恨满大同江</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">1987 · 朝鲜 · 剧情/历史/战争</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1416.html" class="ranking-row filter-card" data-filter-card data-title="情歌春恋" data-genre="爱情,音乐" data-year="1978" data-region="中国台湾" data-type="电影">
+    <span class="list-rank">81</span>
+    <img src="./66.jpg" alt="情歌春恋" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">情歌春恋</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">1978 · 中国台湾 · 爱情,音乐</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0072.html" class="ranking-row filter-card" data-filter-card data-title="甜姐儿" data-genre="歌舞、喜剧" data-year="1957" data-region="美国" data-type="电影">
+    <span class="list-rank">82</span>
+    <img src="./72.jpg" alt="甜姐儿" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">甜姐儿</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">1957 · 美国 · 歌舞、喜剧</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-1464.html" class="ranking-row filter-card" data-filter-card data-title="笃定发生" data-genre="科幻,战争" data-year="1936" data-region="英国" data-type="电影">
+    <span class="list-rank">83</span>
+    <img src="./114.jpg" alt="笃定发生" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">笃定发生</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">1936 · 英国 · 科幻,战争</span>
+    </span>
+    <span class="score-pill">9.8</span>
+</a>
+<a href="./movie-0857.html" class="ranking-row filter-card" data-filter-card data-title="拉斯维加斯见" data-genre="喜剧,剧情,冒险" data-year="2029" data-region="美国" data-type="电影">
+    <span class="list-rank">84</span>
+    <img src="./107.jpg" alt="拉斯维加斯见" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">拉斯维加斯见</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2029 · 美国 · 喜剧,剧情,冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1121.html" class="ranking-row filter-card" data-filter-card data-title="一个死者对生者的访问" data-genre="悬疑、奇幻、社会" data-year="2027" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">85</span>
+    <img src="./71.jpg" alt="一个死者对生者的访问" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">一个死者对生者的访问</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2027 · 中国大陆 · 悬疑、奇幻、社会</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0473.html" class="ranking-row filter-card" data-filter-card data-title="蒸气杀人实验" data-genre="科幻,惊悚,恐怖" data-year="2026" data-region="美国" data-type="电影">
+    <span class="list-rank">86</span>
+    <img src="./23.jpg" alt="蒸气杀人实验" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">蒸气杀人实验</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 美国 · 科幻,惊悚,恐怖</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0593.html" class="ranking-row filter-card" data-filter-card data-title="宿敌第二季" data-genre="犯罪、悬疑、惊悚" data-year="2026" data-region="美国" data-type="剧集">
+    <span class="list-rank">87</span>
+    <img src="./143.jpg" alt="宿敌第二季" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">宿敌第二季</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 美国 · 犯罪、悬疑、惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0953.html" class="ranking-row filter-card" data-filter-card data-title="公主为奴" data-genre="古装,爱情,虐恋" data-year="2026" data-region="中国大陆" data-type="剧集">
+    <span class="list-rank">88</span>
+    <img src="./53.jpg" alt="公主为奴" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">公主为奴</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 中国大陆 · 古装,爱情,虐恋</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0977.html" class="ranking-row filter-card" data-filter-card data-title="变形金刚:超能勇士第二季" data-genre="科幻/动画/动作" data-year="2026" data-region="美国" data-type="剧集">
+    <span class="list-rank">89</span>
+    <img src="./77.jpg" alt="变形金刚:超能勇士第二季" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">变形金刚:超能勇士第二季</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 美国 · 科幻/动画/动作</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1001.html" class="ranking-row filter-card" data-filter-card data-title="五哈游戏特辑" data-genre="真人秀/喜剧/冒险" data-year="2026" data-region="中国大陆" data-type="综艺">
+    <span class="list-rank">90</span>
+    <img src="./101.jpg" alt="五哈游戏特辑" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">五哈游戏特辑</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 中国大陆 · 真人秀/喜剧/冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1145.html" class="ranking-row filter-card" data-filter-card data-title="地下室的7人" data-genre="悬疑惊悚" data-year="2026" data-region="韩国" data-type="电影">
+    <span class="list-rank">91</span>
+    <img src="./95.jpg" alt="地下室的7人" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">地下室的7人</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 韩国 · 悬疑惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1313.html" class="ranking-row filter-card" data-filter-card data-title="二姊妹的情人" data-genre="爱情/剧情" data-year="2026" data-region="中国台湾" data-type="电影">
+    <span class="list-rank">92</span>
+    <img src="./113.jpg" alt="二姊妹的情人" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">二姊妹的情人</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 中国台湾 · 爱情/剧情</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1409.html" class="ranking-row filter-card" data-filter-card data-title="在窗边" data-genre="剧情,家庭" data-year="2026" data-region="日本" data-type="电影">
+    <span class="list-rank">93</span>
+    <img src="./59.jpg" alt="在窗边" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">在窗边</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 日本 · 剧情,家庭</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1673.html" class="ranking-row filter-card" data-filter-card data-title="火星人" data-genre="科幻/冒险/灾难" data-year="2026" data-region="美国" data-type="电影">
+    <span class="list-rank">94</span>
+    <img src="./23.jpg" alt="火星人" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">火星人</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 美国 · 科幻/冒险/灾难</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1697.html" class="ranking-row filter-card" data-filter-card data-title="公爵的契约未婚妻" data-genre="爱情,奇幻,喜剧" data-year="2026" data-region="韩国" data-type="剧集">
+    <span class="list-rank">95</span>
+    <img src="./47.jpg" alt="公爵的契约未婚妻" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">公爵的契约未婚妻</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 韩国 · 爱情,奇幻,喜剧</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1793.html" class="ranking-row filter-card" data-filter-card data-title="王牌剑客" data-genre="动作、历史、悬疑" data-year="2026" data-region="韩国" data-type="剧集">
+    <span class="list-rank">96</span>
+    <img src="./143.jpg" alt="王牌剑客" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">王牌剑客</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 韩国 · 动作、历史、悬疑</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1841.html" class="ranking-row filter-card" data-filter-card data-title="边塞丽春花" data-genre="历史/爱情" data-year="2026" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">97</span>
+    <img src="./41.jpg" alt="边塞丽春花" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">边塞丽春花</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 中国大陆 · 历史/爱情</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1865.html" class="ranking-row filter-card" data-filter-card data-title="地狱小丑" data-genre="恐怖/惊悚" data-year="2026" data-region="美国" data-type="电影">
+    <span class="list-rank">98</span>
+    <img src="./65.jpg" alt="地狱小丑" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">地狱小丑</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2026 · 美国 · 恐怖/惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0185.html" class="ranking-row filter-card" data-filter-card data-title="杀戮炼" data-genre="动作/惊悚/冒险" data-year="2025" data-region="日本" data-type="电影">
+    <span class="list-rank">99</span>
+    <img src="./35.jpg" alt="杀戮炼" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">杀戮炼</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 日本 · 动作/惊悚/冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0497.html" class="ranking-row filter-card" data-filter-card data-title="堕入地球的间谍" data-genre="科幻,惊悚" data-year="2025" data-region="英国" data-type="电视剧">
+    <span class="list-rank">100</span>
+    <img src="./47.jpg" alt="堕入地球的间谍" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">堕入地球的间谍</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 英国 · 科幻,惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0569.html" class="ranking-row filter-card" data-filter-card data-title="超时空同居" data-genre="爱情,喜剧,奇幻" data-year="2025" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">101</span>
+    <img src="./119.jpg" alt="超时空同居" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">超时空同居</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 中国大陆 · 爱情,喜剧,奇幻</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1025.html" class="ranking-row filter-card" data-filter-card data-title="林边小屋" data-genre="恐怖,超自然,民俗" data-year="2025" data-region="加拿大" data-type="电影">
+    <span class="list-rank">102</span>
+    <img src="./125.jpg" alt="林边小屋" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">林边小屋</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 加拿大 · 恐怖,超自然,民俗</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1097.html" class="ranking-row filter-card" data-filter-card data-title="黄道杀人魔再揭秘" data-genre="犯罪,悬疑,纪录片(伪)" data-year="2025" data-region="美国" data-type="电影">
+    <span class="list-rank">103</span>
+    <img src="./47.jpg" alt="黄道杀人魔再揭秘" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">黄道杀人魔再揭秘</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 美国 · 犯罪,悬疑,纪录片(伪)</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1385.html" class="ranking-row filter-card" data-filter-card data-title="坟墓舞者" data-genre="恐怖,惊悚" data-year="2025" data-region="美国" data-type="电影">
+    <span class="list-rank">104</span>
+    <img src="./35.jpg" alt="坟墓舞者" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">坟墓舞者</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 美国 · 恐怖,惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1457.html" class="ranking-row filter-card" data-filter-card data-title="巨鱼" data-genre="灾难冒险" data-year="2025" data-region="澳大利亚" data-type="电影">
+    <span class="list-rank">105</span>
+    <img src="./107.jpg" alt="巨鱼" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">巨鱼</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 澳大利亚 · 灾难冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1505.html" class="ranking-row filter-card" data-filter-card data-title="五卢比恩仇录" data-genre="动作,剧情" data-year="2025" data-region="印度" data-type="电影">
+    <span class="list-rank">106</span>
+    <img src="./5.jpg" alt="五卢比恩仇录" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">五卢比恩仇录</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 印度 · 动作,剧情</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1553.html" class="ranking-row filter-card" data-filter-card data-title="超能荷尔蒙" data-genre="青春科幻" data-year="2025" data-region="泰国" data-type="电视剧">
+    <span class="list-rank">107</span>
+    <img src="./53.jpg" alt="超能荷尔蒙" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">超能荷尔蒙</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 泰国 · 青春科幻</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1601.html" class="ranking-row filter-card" data-filter-card data-title="萌娃包青天之铡美案" data-genre="古装喜剧" data-year="2025" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">108</span>
+    <img src="./101.jpg" alt="萌娃包青天之铡美案" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">萌娃包青天之铡美案</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 中国大陆 · 古装喜剧</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1769.html" class="ranking-row filter-card" data-filter-card data-title="后裔" data-genre="科幻、动作、冒险" data-year="2025" data-region="美国" data-type="电影">
+    <span class="list-rank">109</span>
+    <img src="./119.jpg" alt="后裔" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">后裔</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2025 · 美国 · 科幻、动作、冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0017.html" class="ranking-row filter-card" data-filter-card data-title="超级赢家" data-genre="都市,商战" data-year="2024" data-region="中国" data-type="电视剧">
+    <span class="list-rank">110</span>
+    <img src="./17.jpg" alt="超级赢家" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">超级赢家</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 中国 · 都市,商战</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0089.html" class="ranking-row filter-card" data-filter-card data-title="四月一日灵异事件簿第二季" data-genre="奇幻/悬疑/心理" data-year="2024" data-region="日本" data-type="动画剧集">
+    <span class="list-rank">111</span>
+    <img src="./89.jpg" alt="四月一日灵异事件簿第二季" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">四月一日灵异事件簿第二季</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 日本 · 奇幻/悬疑/心理</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0113.html" class="ranking-row filter-card" data-filter-card data-title="夜凛神探第一季" data-genre="悬疑,古装" data-year="2024" data-region="中国大陆" data-type="网剧">
+    <span class="list-rank">112</span>
+    <img src="./113.jpg" alt="夜凛神探第一季" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">夜凛神探第一季</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 中国大陆 · 悬疑,古装</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0161.html" class="ranking-row filter-card" data-filter-card data-title="寻找牛腿琴" data-genre="非遗/音乐" data-year="2024" data-region="中国大陆" data-type="纪录片 人文">
+    <span class="list-rank">113</span>
+    <img src="./11.jpg" alt="寻找牛腿琴" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">寻找牛腿琴</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 中国大陆 · 非遗/音乐</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0281.html" class="ranking-row filter-card" data-filter-card data-title="兰闺飞尸" data-genre="恐怖喜剧" data-year="2024" data-region="中国香港" data-type="电影">
+    <span class="list-rank">114</span>
+    <img src="./131.jpg" alt="兰闺飞尸" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">兰闺飞尸</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 中国香港 · 恐怖喜剧</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0305.html" class="ranking-row filter-card" data-filter-card data-title="浪漫的体质" data-genre="爱情,喜剧" data-year="2024" data-region="韩国" data-type="剧集">
+    <span class="list-rank">115</span>
+    <img src="./5.jpg" alt="浪漫的体质" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">浪漫的体质</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 韩国 · 爱情,喜剧</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0329.html" class="ranking-row filter-card" data-filter-card data-title="鬼来电2" data-genre="恐怖/悬疑" data-year="2024" data-region="日本" data-type="电影">
+    <span class="list-rank">116</span>
+    <img src="./29.jpg" alt="鬼来电2" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">鬼来电2</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 日本 · 恐怖/悬疑</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0617.html" class="ranking-row filter-card" data-filter-card data-title="美国精神病人" data-genre="剧情,惊悚,犯罪,心理" data-year="2024" data-region="美国" data-type="剧集">
+    <span class="list-rank">117</span>
+    <img src="./17.jpg" alt="美国精神病人" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">美国精神病人</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 剧情,惊悚,犯罪,心理</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0665.html" class="ranking-row filter-card" data-filter-card data-title="盲兽" data-genre="悬疑/惊悚" data-year="2024" data-region="日本" data-type="电影">
+    <span class="list-rank">118</span>
+    <img src="./65.jpg" alt="盲兽" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">盲兽</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 日本 · 悬疑/惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0713.html" class="ranking-row filter-card" data-filter-card data-title="夏日进行时" data-genre="爱情,同性" data-year="2024" data-region="泰国" data-type="电视剧">
+    <span class="list-rank">119</span>
+    <img src="./113.jpg" alt="夏日进行时" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">夏日进行时</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 泰国 · 爱情,同性</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0737.html" class="ranking-row filter-card" data-filter-card data-title="疯狂时代" data-genre="喜剧,历史,黑色幽默" data-year="2024" data-region="英国" data-type="剧集">
+    <span class="list-rank">120</span>
+    <img src="./137.jpg" alt="疯狂时代" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">疯狂时代</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 英国 · 喜剧,历史,黑色幽默</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0785.html" class="ranking-row filter-card" data-filter-card data-title="生化危机5:惩罚" data-genre="动作/科幻/恐怖" data-year="2024" data-region="美国" data-type="电影">
+    <span class="list-rank">121</span>
+    <img src="./35.jpg" alt="生化危机5:惩罚" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">生化危机5:惩罚</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 动作/科幻/恐怖</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0881.html" class="ranking-row filter-card" data-filter-card data-title="小天使与流浪汉" data-genre="剧情,温情,犯罪" data-year="2024" data-region="美国" data-type="电影">
+    <span class="list-rank">122</span>
+    <img src="./131.jpg" alt="小天使与流浪汉" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">小天使与流浪汉</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 剧情,温情,犯罪</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0905.html" class="ranking-row filter-card" data-filter-card data-title="首杀" data-genre="动作,惊悚" data-year="2024" data-region="美国" data-type="电影">
+    <span class="list-rank">123</span>
+    <img src="./5.jpg" alt="首杀" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">首杀</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 动作,惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0929.html" class="ranking-row filter-card" data-filter-card data-title="叔比狗:舞台风波" data-genre="喜剧,悬疑,动画" data-year="2024" data-region="美国" data-type="电影(动画)">
+    <span class="list-rank">124</span>
+    <img src="./29.jpg" alt="叔比狗:舞台风波" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">叔比狗:舞台风波</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 喜剧,悬疑,动画</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1049.html" class="ranking-row filter-card" data-filter-card data-title="天使的声音" data-genre="音乐/剧情/传记" data-year="2024" data-region="英国" data-type="电影">
+    <span class="list-rank">125</span>
+    <img src="./149.jpg" alt="天使的声音" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">天使的声音</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 英国 · 音乐/剧情/传记</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1073.html" class="ranking-row filter-card" data-filter-card data-title="困兽之斗" data-genre="惊悚、动作、心理" data-year="2024" data-region="美国" data-type="电影">
+    <span class="list-rank">126</span>
+    <img src="./23.jpg" alt="困兽之斗" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">困兽之斗</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 惊悚、动作、心理</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1361.html" class="ranking-row filter-card" data-filter-card data-title="千谎百计第一季" data-genre="悬疑,犯罪,心理" data-year="2024" data-region="美国" data-type="剧集">
+    <span class="list-rank">127</span>
+    <img src="./11.jpg" alt="千谎百计第一季" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">千谎百计第一季</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 美国 · 悬疑,犯罪,心理</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1577.html" class="ranking-row filter-card" data-filter-card data-title="年年有余" data-genre="剧情,家庭,乡村" data-year="2024" data-region="中国大陆" data-type="电视剧">
+    <span class="list-rank">128</span>
+    <img src="./77.jpg" alt="年年有余" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">年年有余</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 中国大陆 · 剧情,家庭,乡村</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1649.html" class="ranking-row filter-card" data-filter-card data-title="鬼饭店" data-genre="恐怖/悬疑" data-year="2024" data-region="泰国" data-type="电影">
+    <span class="list-rank">129</span>
+    <img src="./149.jpg" alt="鬼饭店" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">鬼饭店</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 泰国 · 恐怖/悬疑</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1745.html" class="ranking-row filter-card" data-filter-card data-title="公园里的女孩" data-genre="剧情,悬疑" data-year="2024" data-region="法国" data-type="电影">
+    <span class="list-rank">130</span>
+    <img src="./95.jpg" alt="公园里的女孩" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">公园里的女孩</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 法国 · 剧情,悬疑</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1913.html" class="ranking-row filter-card" data-filter-card data-title="水西之恋" data-genre="爱情/历史" data-year="2024" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">131</span>
+    <img src="./113.jpg" alt="水西之恋" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">水西之恋</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2024 · 中国大陆 · 爱情/历史</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0065.html" class="ranking-row filter-card" data-filter-card data-title="一场很(没)有必要的春晚" data-genre="喜剧、剧情、荒诞" data-year="2023" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">132</span>
+    <img src="./65.jpg" alt="一场很(没)有必要的春晚" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">一场很(没)有必要的春晚</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 中国大陆 · 喜剧、剧情、荒诞</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0257.html" class="ranking-row filter-card" data-filter-card data-title="月之恋人" data-genre="爱情,科幻" data-year="2023" data-region="日本" data-type="剧集">
+    <span class="list-rank">133</span>
+    <img src="./107.jpg" alt="月之恋人" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">月之恋人</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 日本 · 爱情,科幻</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0377.html" class="ranking-row filter-card" data-filter-card data-title="我是古巴" data-genre="剧情/歌舞" data-year="2023" data-region="古巴/西班牙" data-type="电影">
+    <span class="list-rank">134</span>
+    <img src="./77.jpg" alt="我是古巴" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">我是古巴</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 古巴/西班牙 · 剧情/歌舞</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0449.html" class="ranking-row filter-card" data-filter-card data-title="巴黎的天空" data-genre="剧情、文艺、家庭" data-year="2023" data-region="法国" data-type="电影">
+    <span class="list-rank">135</span>
+    <img src="./149.jpg" alt="巴黎的天空" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">巴黎的天空</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 法国 · 剧情、文艺、家庭</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0641.html" class="ranking-row filter-card" data-filter-card data-title="铁血男儿夏明翰" data-genre="剧情,传记,历史" data-year="2023" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">136</span>
+    <img src="./41.jpg" alt="铁血男儿夏明翰" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">铁血男儿夏明翰</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 中国大陆 · 剧情,传记,历史</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0689.html" class="ranking-row filter-card" data-filter-card data-title="寂静计划" data-genre="惊悚/灾难" data-year="2023" data-region="韩国" data-type="电影">
+    <span class="list-rank">137</span>
+    <img src="./89.jpg" alt="寂静计划" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">寂静计划</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 韩国 · 惊悚/灾难</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0809.html" class="ranking-row filter-card" data-filter-card data-title="动物王国2023" data-genre="奇幻/剧情/冒险" data-year="2023" data-region="法国" data-type="电影">
+    <span class="list-rank">138</span>
+    <img src="./59.jpg" alt="动物王国2023" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">动物王国2023</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 法国 · 奇幻/剧情/冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1433.html" class="ranking-row filter-card" data-filter-card data-title="地狱来的房东" data-genre="惊悚/恐怖" data-year="2023" data-region="美国" data-type="电影">
+    <span class="list-rank">139</span>
+    <img src="./83.jpg" alt="地狱来的房东" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">地狱来的房东</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 美国 · 惊悚/恐怖</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1481.html" class="ranking-row filter-card" data-filter-card data-title="鲁宾逊漂流记" data-genre="剧情/冒险/生存" data-year="2023" data-region="英国" data-type="剧集">
+    <span class="list-rank">140</span>
+    <img src="./131.jpg" alt="鲁宾逊漂流记" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">鲁宾逊漂流记</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 英国 · 剧情/冒险/生存</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1625.html" class="ranking-row filter-card" data-filter-card data-title="大人别出声" data-genre="喜剧,悬疑" data-year="2023" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">141</span>
+    <img src="./125.jpg" alt="大人别出声" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">大人别出声</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 中国大陆 · 喜剧,悬疑</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1817.html" class="ranking-row filter-card" data-filter-card data-title="游侠郎君" data-genre="古装,武侠,爱情" data-year="2023" data-region="中国大陆" data-type="剧集">
+    <span class="list-rank">142</span>
+    <img src="./17.jpg" alt="游侠郎君" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">游侠郎君</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 中国大陆 · 古装,武侠,爱情</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1889.html" class="ranking-row filter-card" data-filter-card data-title="井" data-genre="剧情/奇幻" data-year="2023" data-region="日本" data-type="电影">
+    <span class="list-rank">143</span>
+    <img src="./89.jpg" alt="井" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">井</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 日本 · 剧情/奇幻</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1985.html" class="ranking-row filter-card" data-filter-card data-title="大河女王" data-genre="剧情,奇幻,冒险" data-year="2023" data-region="英国" data-type="剧集">
+    <span class="list-rank">144</span>
+    <img src="./35.jpg" alt="大河女王" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">大河女王</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2023 · 英国 · 剧情,奇幻,冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0545.html" class="ranking-row filter-card" data-filter-card data-title="冰上青春日记" data-genre="剧情/运动" data-year="2022" data-region="中国大陆" data-type="剧集">
+    <span class="list-rank">145</span>
+    <img src="./95.jpg" alt="冰上青春日记" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">冰上青春日记</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2022 · 中国大陆 · 剧情/运动</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0761.html" class="ranking-row filter-card" data-filter-card data-title="四坪半恋人" data-genre="爱情,奇幻" data-year="2022" data-region="日本" data-type="动画电影">
+    <span class="list-rank">146</span>
+    <img src="./11.jpg" alt="四坪半恋人" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">四坪半恋人</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2022 · 日本 · 爱情,奇幻</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0425.html" class="ranking-row filter-card" data-filter-card data-title="生命之舟" data-genre="剧情/灾难" data-year="2021" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">147</span>
+    <img src="./125.jpg" alt="生命之舟" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">生命之舟</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 中国大陆 · 剧情/灾难</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0521.html" class="ranking-row filter-card" data-filter-card data-title="孩子,就咱俩" data-genre="剧情、家庭" data-year="2021" data-region="日本" data-type="电影">
+    <span class="list-rank">148</span>
+    <img src="./71.jpg" alt="孩子,就咱俩" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">孩子,就咱俩</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 日本 · 剧情、家庭</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1241.html" class="ranking-row filter-card" data-filter-card data-title="爱上男主播" data-genre="都市、甜宠" data-year="2021" data-region="中国大陆" data-type="电视剧">
+    <span class="list-rank">149</span>
+    <img src="./41.jpg" alt="爱上男主播" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">爱上男主播</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 中国大陆 · 都市、甜宠</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1289.html" class="ranking-row filter-card" data-filter-card data-title="杜宾专员:有分歧的理由" data-genre="悬疑,犯罪" data-year="2021" data-region="德国" data-type="剧集">
+    <span class="list-rank">150</span>
+    <img src="./89.jpg" alt="杜宾专员:有分歧的理由" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">杜宾专员:有分歧的理由</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 德国 · 悬疑,犯罪</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1529.html" class="ranking-row filter-card" data-filter-card data-title="亲吻亭3" data-genre="喜剧、爱情、青春" data-year="2021" data-region="美国" data-type="电影">
+    <span class="list-rank">151</span>
+    <img src="./29.jpg" alt="亲吻亭3" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">亲吻亭3</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 美国 · 喜剧、爱情、青春</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1721.html" class="ranking-row filter-card" data-filter-card data-title="莲娜的甜美生活" data-genre="剧情" data-year="2021" data-region="法国" data-type="电影">
+    <span class="list-rank">152</span>
+    <img src="./71.jpg" alt="莲娜的甜美生活" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">莲娜的甜美生活</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 法国 · 剧情</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1961.html" class="ranking-row filter-card" data-filter-card data-title="色肉毒蝎女" data-genre="惊悚,犯罪,情色" data-year="2021" data-region="香港" data-type="电影">
+    <span class="list-rank">153</span>
+    <img src="./11.jpg" alt="色肉毒蝎女" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">色肉毒蝎女</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2021 · 香港 · 惊悚,犯罪,情色</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0209.html" class="ranking-row filter-card" data-filter-card data-title="失踪: 消失的妻子" data-genre="悬疑/惊悚" data-year="2020" data-region="韩国" data-type="剧集">
+    <span class="list-rank">154</span>
+    <img src="./59.jpg" alt="失踪: 消失的妻子" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">失踪: 消失的妻子</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2020 · 韩国 · 悬疑/惊悚</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0401.html" class="ranking-row filter-card" data-filter-card data-title="阳光清洗" data-genre="剧情/黑色幽默" data-year="2020" data-region="美国" data-type="电影">
+    <span class="list-rank">155</span>
+    <img src="./101.jpg" alt="阳光清洗" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">阳光清洗</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2020 · 美国 · 剧情/黑色幽默</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0233.html" class="ranking-row filter-card" data-filter-card data-title="庭外的一角" data-genre="悬疑/犯罪" data-year="2019" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">156</span>
+    <img src="./83.jpg" alt="庭外的一角" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">庭外的一角</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2019 · 中国大陆 · 悬疑/犯罪</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1169.html" class="ranking-row filter-card" data-filter-card data-title="海边别墅" data-genre="剧情,悬疑" data-year="2018" data-region="英国" data-type="电影">
+    <span class="list-rank">157</span>
+    <img src="./119.jpg" alt="海边别墅" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">海边别墅</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2018 · 英国 · 剧情,悬疑</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1265.html" class="ranking-row filter-card" data-filter-card data-title="复活" data-genre="悬疑,犯罪" data-year="2017" data-region="俄罗斯" data-type="电影">
+    <span class="list-rank">158</span>
+    <img src="./65.jpg" alt="复活" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">复活</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2017 · 俄罗斯 · 悬疑,犯罪</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-1937.html" class="ranking-row filter-card" data-filter-card data-title="鲜花宝座国语" data-genre="爱情" data-year="2017" data-region="泰国" data-type="剧集">
+    <span class="list-rank">159</span>
+    <img src="./137.jpg" alt="鲜花宝座国语" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">鲜花宝座国语</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2017 · 泰国 · 爱情</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+<a href="./movie-0833.html" class="ranking-row filter-card" data-filter-card data-title="熊出没之雪岭熊风" data-genre="动画/喜剧/冒险" data-year="2015" data-region="中国大陆" data-type="电影">
+    <span class="list-rank">160</span>
+    <img src="./83.jpg" alt="熊出没之雪岭熊风" class="ranking-cover" loading="lazy">
+    <span class="flex-1 min-w-0">
+        <strong class="block text-mist-900 line-clamp-1">熊出没之雪岭熊风</strong>
+        <span class="block text-sm text-mist-600 line-clamp-1">2015 · 中国大陆 · 动画/喜剧/冒险</span>
+    </span>
+    <span class="score-pill">9.7</span>
+</a>
+        </div>
+    </div>
+</section>
+</main>
+<footer class="bg-mist-900 text-mist-200">
+    <div class="container-custom py-12 md:py-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            <div>
+                <div class="flex items-center space-x-2 mb-4">
+                    <span class="site-logo-mark footer-logo-mark">▶</span>
+                    <span class="text-lg font-bold text-white">高清剧集大全</span>
+                </div>
+                <p class="text-sm text-mist-300 leading-relaxed">国产电视剧视频免费在线播放，最新高清剧集热播内容在线点播。</p>
+            </div>
+            <div>
+                <h3 class="text-base font-semibold text-white mb-4">剧集分类</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="./category-domestic-series.html" class="text-mist-300 hover:text-white transition-colors">国产热剧</a></li><li><a href="./category-costume-wuxia.html" class="text-mist-300 hover:text-white transition-colors">古装武侠</a></li><li><a href="./category-suspense-crime.html" class="text-mist-300 hover:text-white transition-colors">悬疑犯罪</a></li><li><a href="./category-romance-drama.html" class="text-mist-300 hover:text-white transition-colors">爱情剧情</a></li><li><a href="./category-action-war.html" class="text-mist-300 hover:text-white transition-colors">动作战争</a></li><li><a href="./category-comedy-family.html" class="text-mist-300 hover:text-white transition-colors">喜剧家庭</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-base font-semibold text-white mb-4">热门入口</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="./index.html" class="text-mist-300 hover:text-white transition-colors">首页推荐</a></li>
+                    <li><a href="./ranking.html" class="text-mist-300 hover:text-white transition-colors">热播排行</a></li>
+                    <li><a href="./categories.html" class="text-mist-300 hover:text-white transition-colors">全部分类</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-mist-700 mt-8 pt-8 text-center text-sm text-mist-400">
+            <p>© 2026 高清剧集大全</p>
+        </div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
